@@ -1,0 +1,234 @@
+.wrap .top{
+    background: #fff;
+    border-bottom: 1px solid #ededed;
+}
+.wrap .main{
+    padding-top:89px;
+    padding-bottom: 74px;
+}
+.check{
+    width: 32px;
+    height: 32px;
+    border: 1px solid #666;
+    border-radius: 50%;
+    margin-left: 20px;
+    /*overflow: hidden;*/
+}
+.check>img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.checkbox>input{
+    width: 0px;
+    height: 0px;
+    display: block;
+}
+.checkbox>div,
+.checkbox>input{
+    float:left;
+}
+.dp_name{
+    width: 100%;
+    height: 70px;
+    background: #fafafa;
+}
+.dp_name>div,
+.dp_name>img{
+    float: left;
+}
+.dp_name .checkbox{
+    margin-top: 19px;
+}
+.dp_name>img:nth-child(2){
+    width: 25px;
+    height: 24px;
+    overflow: hidden;
+    margin-top: 23px;
+    margin-left: 18px;
+}
+.dp_name>div:nth-child(3){
+    height: 100%;
+    line-height: 70px;
+    margin-left: 8px;
+    color: #333;
+    font-size: 24px;
+}
+.dp_name>img:nth-child(4){
+    width: 11px;
+    height: 19px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.list{
+    width: 100%;
+    overflow: hidden;
+}
+.list_g{
+    width: 640px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-top: 1px solid #EDEDED;
+    position: relative;
+    height: 142px;
+}
+.list>div:nth-child(1){
+    border-top: none;
+}
+.del{
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    width: 100px;
+    right: 0px;
+    height: 140px;
+    line-height: 140px;
+    background: #f23030;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: -10px;
+    z-index: 1;
+}
+.del_prev{
+    width: 100%;
+    height: 142px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #fff;
+    z-index: 2;
+}
+.list_g>div>div,
+.list_g>div>img{
+    display: block;
+    float: left;
+    height: 142px;
+}
+.list_g>div>div:nth-child(1){
+    width:64px;
+}
+.list_g>div>img{
+    width: 142px;
+    border: 1px solid #EDEDED;
+    border-radius: 5px;
+}
+.list_g>div>div:nth-child(3){
+    margin-left: 15px;
+}
+.list_g>div>div:nth-child(1) .check{
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.list_g>div>div:nth-child(3){
+    width: 404px;
+    overflow: hidden;
+}
+.list_g>div>div:nth-child(3)>div:nth-child(1){
+    width: 300px;
+    height: 58px;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 3px;
+    color: #333;;
+}
+.list_g>div>div:nth-child(3) .info_dp{
+    font-size: 20px;
+    line-height: 22px;
+    height: 22px;
+    color: #666;
+    display: block;
+    margin-top: 7px;
+}
+.one{
+    width: 67%;
+}
+.list_g>div>div:nth-child(3)>div:nth-child(3)>div:nth-child(1){
+    font-size: 24px;
+    height: 26px;
+    line-height: 26px;
+    color: #ff6400;
+    margin-top: 22px;
+    float: left;
+}
+.list_g>div>div:nth-child(3)>div:nth-child(3)>div:nth-child(1) .fontSize20{
+    font-size: 20px;
+}
+.list_g>div>div:nth-child(3)>div:nth-child(3)>div:nth-child(2){
+    float: right;
+}
+.list_g .change{
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    color: #666;
+    border: 1px solid #EDEDED;
+    border-right: none;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 5px;
+    margin-top: 14px;
+}
+.list_g .change>div{
+    width: 38px;
+    border-right:1px solid #EDEDED;
+    font-size: 24px;
+    float: left;
+}
+.list_g .change>div:nth-child(2){
+    width: 52px;
+}
+.change>div:nth-child(1),
+.change>div:nth-child(3){
+    height: 34px;
+}
+.change>div:nth-child(1)>img,
+.change>div:nth-child(3)>img{
+    display: block;
+    margin: 5.5px auto;
+}
+.two{
+    width: 33%;
+}
+.two>a{
+    display: block;
+    width: 100%;
+    height: 73px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 73px;
+    font-size: 24px;
+}
+.two>a:nth-child(1){
+    background: #ff5000;
+}
+.two>a>span{
+    margin-left: 10px;
+}
+.one>div{
+    overflow: hidden;
+    float: left;
+    height: 73px;
+    line-height: 73px;
+    margin-left: 20px;
+}
+.one>div:nth-child(1)>div:nth-child(2){
+    margin-top: 21px;
+    margin-left:0px;
+}
+.one>div:nth-child(1)>div:nth-child(3){
+   font-size: 20px;
+    color: #666;
+    line-height: 73px;
+    height: 100%;
+    margin-left: 8px;
+}
+.one>div:nth-child(2){
+    font-size: 24px;
+    color: #333;
+}

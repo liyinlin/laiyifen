@@ -1,0 +1,231 @@
+.swiper-container{
+    width: 100%;
+    overflow: hidden;
+}
+.swiper-container .swiper-slide,
+.swiper-container .swiper-slide>a,
+.swiper-container .swiper-slide>a>img{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+.name{
+    font-size: 24px;
+    width: 450px;
+    line-height: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.active_a{
+    display: block;
+    width: 600px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 18px;
+    color: #fc1e00;
+    text-decoration: none;
+    overflow: hidden;
+}
+.price{
+    text-indent: 20px;
+    font-size: 30px;
+    height: 32px;
+    line-height: 32px;
+    color: #fc1e00;
+    margin-top: 15px;
+    margin-bottom: 22px;
+}
+.price>span{
+    font-size: 20px;
+    line-height: 34px;
+    color: #666666;
+    margin-left: 4px;
+    text-decoration: line-through;
+}
+.info_sp{
+    width: 100%;
+    height: 60px;
+    border-top:1px solid #EDEDED;
+    text-decoration: none;
+    display: block;
+}
+.info_sp>div{
+    float: left;
+    font-size: 18px;
+    color: #666;
+    height: 100%;
+    line-height: 60px;
+    text-indent: 20px;
+}
+.info_sp>div>span{
+    color: #333;
+    margin-left: 18px;
+}
+.info_sp>img{
+    display: block;
+    float: right;
+    margin-right:20px;
+    width: 11px;
+    height: 19px;
+    margin-top: 19.5px;
+}
+.info_pj{
+    height: 52px;
+    border-top: 12px solid #ededed;
+}
+.info_pj>div{
+    font-size: 18px;
+    color: #333;
+    text-indent: 20px;
+    line-height: 52px;
+}
+.info_pj>div:nth-child(3){
+    float: right;
+    margin-right: 16px;
+}
+.info_pj>div:nth-child(3)>span{
+    margin-left: 7px;
+    color: #fc1e00;
+}
+.info_pj>img{
+    margin-top: 15.5px;
+}
+.list{
+    width: 100%;
+    overflow: hidden;
+}
+.list_info{
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 16px;
+    border-top: 1px solid #EDEDED;
+}
+.list_info>div{
+    float: left;
+}
+.tx{
+    width: 14%;
+}
+.tx_info{
+    width: 86%;
+}
+.tx>img{
+    width: 60px;
+    height: 60px;
+    display: block;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.tx_info>div:nth-child(1){
+    width: 100%;
+    height: 20px;
+    overflow: hidden;
+    margin-top: 16px;
+}
+.tx_info>div:nth-child(1)>div:nth-child(1){
+    float: left;
+}
+.tx_info>div:nth-child(1)>div:nth-child(1)>span{
+    font-size: 18px;
+    line-height: 20px;
+    color:#72a444;
+    float: left;
+}
+.tx_info>div:nth-child(1)>div:nth-child(1)>img{
+    float: left;
+    height: 20px;
+    margin-left: 12px;
+}
+.tx_info>div:nth-child(1)>div:nth-child(2){
+    float: right;
+    margin-right: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    height: 20px;
+    color: #666;
+}
+.star{
+    width: 100%;
+    height: 16px;
+    overflow: hidden;
+    margin-top: 12px;
+}
+.star>img{
+    width: 15px;
+    height: 15px;
+    display: block;
+    float: left;
+    margin-right: 8px;
+}
+.info_sf{
+    width: 440px;
+    font-size: 18px;
+    color: #333;
+    line-height: 25px;
+    margin-top: 10px;
+}
+.top_bar{
+    width: 100%;
+    height: 20px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-top: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+}
+.top_bar>div{
+    width: 49.5%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+.top_bar>div:nth-child(1){
+    border-right: 1px solid #EDEDED;
+}
+.top_bar>div:nth-child(2){
+    border-left: 1px solid #EDEDED;
+}
+.top_bar>div>a{
+    width: 100%;
+    font-size: 20px;
+    color: #666;
+    line-height: 20px;
+    text-decoration: none;
+}
+.top_bar>div .active_bar{
+    color: #ff6400;
+}
+.content,
+.content>div{
+    width: 100%;
+    overflow: hidden;
+}
+.content_one .list_con{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 25px;
+}
+.content_one .list_con>div:nth-child(1){
+    font-size: 30px;
+    color: #666;
+    height: 30px;
+    overflow: hidden;
+    line-height: 30px;
+    text-align: center;
+}
+.content_one .list_con>div:nth-child(2){
+    width: 460px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #666;
+    margin: 10px auto 0px;
+    text-align: center;
+}
+.content_one .list_con>img{
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    overflow: hidden;
+}

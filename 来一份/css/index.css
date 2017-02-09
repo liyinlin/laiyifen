@@ -1,0 +1,230 @@
+.swiper-container{
+    width: 100%;
+    overflow: hidden;
+}
+.swiper_ban{
+    height: 333px;
+    background: #efefef;
+}
+.swiper_ban .swiper-wrapper .swiper-slide,
+.swiper_ban .swiper-wrapper .swiper-slide>a,
+.swiper_ban .swiper-wrapper .swiper-slide>a>img{
+    display: block;
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+}
+.active_xz{
+    width: 100%;
+    height: 52px;
+    overflow: hidden;
+    border-bottom: 1px solid #ededed;
+}
+.active_xz>img,
+.active_xz>span{
+    display: block;
+    float: left;
+    margin-left: 14px;
+}
+.active_xz>a{
+    display: block;
+    text-decoration: none;
+    float: right;
+    margin-right: 14px;
+    font-size: 16px;
+    height: 52px;
+    line-height: 52px;
+    color: #666;
+}
+.active_xz>img{
+    width: 26px;
+    height: 29px;
+    margin-top: 11.5px;
+}
+.active_xz>span{
+    height: 52px;
+    line-height: 52px;
+    font-size: 24px;
+    color: #666666;
+}
+.swiper-wrap{
+    height: 250px;
+}
+.slide{
+    margin-top: 1px;
+    border-left: 1px solid #EDEDED;
+}
+.slide:nth-last-child(1){
+    border-right:1px solid #EDEDED;
+}
+.slide,
+.slide>a{
+    display: block;
+    width: 189px;
+    height: 248px;
+    overflow: hidden;
+    text-decoration: none;
+}
+.slide>a>div:nth-child(1){
+    width: 100%;
+    height: 176px;
+    overflow: hidden;
+    position: relative;
+}
+.slide>a>div:nth-child(1)>img{
+    display: block;
+    position: absolute;
+    left: 50%;
+    width: 148px;
+    height: 148px;
+    margin-left: -74px;
+    bottom: 0px;
+}
+.slide>a>div:nth-child(2){
+    width:100%;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.slide>a>div:nth-child(2)>div{
+    text-indent: 10px;
+}
+.slide>a>div:nth-child(2)>div:nth-child(1){
+    font-size: 16px;
+    line-height: 20px;
+    height: 20px;
+    overflow: hidden;
+    color: #333;
+}
+.slide>a>div:nth-child(2)>div:nth-child(2){
+    color: #ff6400;
+    font-size: 16px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.slide>a>div:nth-child(2)>div:nth-child(2)>span{
+    color: #666;
+    margin-left: 8px;
+    text-decoration: line-through;
+}
+.three>div{
+    display: block;
+    float: left;
+    text-decoration: none;
+}
+.three>div:nth-child(1){
+    width: 279px;
+    height: 351px;
+    overflow: hidden;
+    border-right: 1px solid #EDEDED;
+}
+.three>div>a{
+    display: block;
+    width: 279px;
+    height: 351px;
+    float: left;
+}
+.three>div>a>img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.three>div:nth-child(2){
+    width: 359px;
+    height: 351px;
+    overflow: hidden;
+}
+.three>div:nth-child(2)>a:nth-child(1){
+    border-bottom: 1px solid #EDEDED;
+}
+.three>div:nth-child(2)>a{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height:175px;
+    overflow: hidden;
+    position: relative;
+}
+.three>div:nth-child(2)>a>img{
+    width: 148px;
+    height: 148px;
+    display: block;
+    position: absolute;
+    right: -20px;
+    bottom: 0px;
+}
+.three>div:nth-child(2)>a>div{
+    margin-left: 20px;
+}
+.three>div:nth-child(2)>a>div:nth-child(1){
+    font-size: 20px;
+    color: #333;
+    height: 22px;
+    line-height: 22px;
+    margin-top: 24px;
+}
+.three>div:nth-child(2)>a>div:nth-child(2){
+    font-size: 16px;
+    color: #666;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 12px;
+}
+.three>div:nth-child(2)>a>div:nth-child(3){
+    font-size: 30px;
+    color: #ff6400;
+    height: 32px;
+    line-height: 32px;
+    margin-top: 14px;
+}
+.one{
+    width: 100%;
+    background: #efefef;
+}
+.one>a{
+    display: block;
+    width: 618px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 12px;
+}
+.one>a>img{
+    width: 100%;
+    display: block;
+}
+.more{
+    width: 100%;
+}
+.more .slide{
+    width: 32.8%;
+    height: 272px;
+    float: left;
+    margin: 0 auto;
+    border-top:1px solid #EDEDED;
+}
+.more .slide>a{
+    height: 272px;
+}
+.more .slide>a>div:nth-child(2){
+    margin-top: 30px;
+}
+.more .slide>a>div:nth-child(2)>div:nth-child(2){
+    margin-top: 20px;
+}
+.more .slide:nth-child(1),
+.more .slide:nth-child(2),
+.more .slide:nth-child(3){
+    border-top: none;
+}
+.more .slide:nth-child(3n){
+    border-right:none;
+}
+.more .slide>a{
+    margin: 0 auto;
+}
+.display,
+.display>div{
+    width: 100%;
+    overflow: hidden;
+}

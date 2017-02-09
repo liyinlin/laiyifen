@@ -1,0 +1,164 @@
+/*页面初始化*/
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    font-size: 18px;
+    font-family: "微软雅黑";
+    position: relative;
+    display: none;
+}
+.clear:after{
+    clear:both;
+    content:'';
+    display:block;
+    width: 0;
+    height: 0;
+    visibility:hidden;
+}
+img{
+    border: none;
+}
+select,input{
+    border: 1px solid #EDEDED;
+}
+input[type='button'],
+input[type='submit'],
+select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+}
+input,select{
+    border: 1px solid #ccc;
+    outline: none;
+}
+.wrap,.action{
+    width: 100%;
+    overflow: hidden;
+}
+.main{
+    width: 100%;
+    padding-top: 88px;
+    padding-bottom: 78px;
+    overflow: hidden;
+}
+.active{
+    height: 58px;
+    width: 100%;
+    background: #efefef;
+    border-bottom: 1px solid #EDEDED;
+    overflow: hidden;
+}
+.active>div{
+    height: 21px;
+    font-size: 20px;
+    color: #333333;
+    border-left: 5px solid #ff6400;
+    text-indent: 13px;
+    line-height: 21px;
+    overflow: hidden;
+    margin-left: 16px;
+    margin-top: 18.5px;
+}
+/*top*/
+.top{
+    width: 100%;
+    height: 88px;
+    overflow: hidden;
+    background: #ff6400;
+    position: fixed;
+    top:0px;
+    z-index: 100;
+}
+.top>a,
+.top>div{
+    display: block;
+    float: left;
+}
+.top>a:nth-child(1){
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    margin: 22px 21px 0px 19px;
+}
+.top>a:nth-child(3){
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+    margin-left: 19px;
+    margin-top: 24px;
+}
+.top>a>img,
+.search>a>img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.search{
+    width: 489px;
+    height: 38px;
+    border-radius: 38px;
+    overflow: hidden;
+    background: #fff;
+    margin-top: 23px;
+}
+.search>a,
+.search>input{
+    display: block;
+    float: left;
+}
+.search>a{
+    width: 20px;
+    height: 21px;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 11px;
+}
+.search>input{
+    margin-left: 16px;
+    width: 420px;
+    height: 38px;
+    overflow: hidden;
+    font-size: 18px;
+    color: #9b9b9b;
+    border: none;
+}
+/*底部*/
+.bottomBar{
+    width: 100%;
+    height: 76px;
+    background: #f6f7f6;
+    position: fixed;
+    bottom: 0px;
+    border-top: 1px solid #EDEDED;
+    z-index: 100;
+}
+.bottomBar>a{
+    display: block;
+    height: 78px;
+    width: 20%;
+    overflow: hidden;
+    float: left;
+    text-decoration: none;
+}
+.bottomBar>a>img,
+.bottomBar>a>span{
+    display: block;
+}
+.bottomBar>a>img{
+    width: 40px;
+    height: 40px;
+    margin: 10px auto 0px;
+}
+.bottomBar>a>span{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    color: #666666;
+    text-align: center;
+    margin-top: 5px;
+}
